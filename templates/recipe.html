@@ -1,0 +1,10 @@
+<h1>Recipe Ingredients</h1>
+
+<ul>
+    {% for stuff in ingredients %}
+    <li>{{recipe.title}} by {{recipe.title}}</li>
+    <ol>
+        <li>{{stuff.body}}</li>
+    </ol>
+    {% endfor %}
+</ul>

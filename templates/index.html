@@ -1,0 +1,11 @@
+<h1>The Recipes</h1>
+
+<ul>
+    {% for recipe in recipes %}
+    <li> {{recipe.title}} by {{recipe.author}}
+        <ul>
+            <li>{{recipe.body}}</li>
+        </ul>
+    </li>
+    {% endfor%}
+</ul>
